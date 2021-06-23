@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shape Up Or Ship Out</title>
+</head>
+<body>
+    <div id="header" class="container">
+        Shape Up or Shape Out!
+    </div>
+    <div id="canvas" class="container">
+        <div id="canvasBody" class="canvas">
+            Canvas
+        </div>
+    </div>
+    <div id="panel" class="container">
+        <div id="insert-panel" class="panel">
+            <div class="panHead">
+                <h1>Insert a Shape</h1> 
+            </div>
+            <div class="panBody">
+                <h1>Rectangle</h1>
+                <input type="text" id="recHeight" value="250" class="panInput" placeholder="height">
+                <input type="text" id="recWidth" value="100" class="panInput" placeholder="width">
+                <a href="" id="recInsertBtn" class="insertShape">Insert</a>
+            </div>
+            <div class="panBody">
+                <h1>Square</h1>
+                <input type="text" id="sqSides" class="panInput" placeholder="side length">
+                <a href="" id="sqInsertBtn" class="insertShape">Insert</a>
+            </div>
+            <div class="panBody">
+                <h1>Circle</h1>
+                <input type="text" id="cirRadius" class="panInput" placeholder="radius">
+                <a href="" id="cirInsertBtn" class="insertShape">Insert</a>
+            </div>
+            <div class="panBody">
+                <h1>Triangle</h1>
+                <input type="text" id="triBase" class="panInput" placeholder="height">
+                <a href="" id="triInsertBtn" class="insertShape">Insert</a>
+            </div>
+        </div>
+        <div id="results-panel" class="panel">
+            <div class="panHead">
+                results panel header
+            </div>
+            <div class="panBody">
+                Somehow display results.
+            </div>
+        </div>
+    </div>
+    <div id="footer" class="container">
+        footer container
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
